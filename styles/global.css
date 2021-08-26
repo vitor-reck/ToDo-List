@@ -1,0 +1,21 @@
+* { 
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    background-color: cadetblue;
+}

@@ -1,0 +1,52 @@
+.container {
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 3vh;
+}
+
+form {
+    background-color: white;
+
+    padding: 15px;
+
+    border-radius: 10px;
+}
+
+ul {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.task-list {
+    display: flex;
+}
+
+input {
+    border-bottom: 1px solid lightgray;
+
+    padding: 3px;
+
+    outline: none;
+}
+
+.btn-add {
+    padding: 4px;
+
+    font-weight: 700;
+
+    background-color: cadetblue;
+
+    cursor: pointer;
+}
